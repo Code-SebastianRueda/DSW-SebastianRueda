@@ -65,6 +65,14 @@ header{
   font-size: 20px;
   color:white;
 }
+.centrar{
+  float: left;
+  max-width: 80%;
+  background: grey;
+  padding: 120px;
+  align-self:center;
+  align-content: center;
+}
 /* partir en dos columnas*/
 section {
   float: left;
@@ -79,7 +87,7 @@ aside {
   align-self: auto;
 }
 .lateralderecho{
-  float: left;
+  float: right;
   max-width: 20%;
   background: grey;
   padding: 20px;
@@ -90,6 +98,7 @@ aside {
   content: "";
   display: table;
   clear: both;
+  color: white;
 }
 
 /*estilo para el footer*/
@@ -100,13 +109,25 @@ footer{
   font-size: 20px;
   color:white;
 }
+
+
+table{
+  font-size: 38px;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  height:100%;
+	width:100%;
+}
+.colorfuente {
+  color: white;
+}
 /* Menu lateral*/
 .menulateral{
-  color: white;
-  background-color: grey;
-  font: 20px Verdana;
-  width: 100%;
-}
-table{
-  font-size: 30px;
+  margin-left:auto;
+	margin-right:auto;
+	margin-top:auto;
+  height:100%;
+	width:100%;
+  font-size: 38px;
 }
