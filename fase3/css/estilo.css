@@ -1,0 +1,112 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h2{
+  text-align: center;
+}
+
+/*Menu*/
+
+.menuprincipal a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background: black;
+  height: 50px;
+  text-decoration: none;
+}
+
+.menuprincipal a:hover {
+  background:white;
+  color: purple;
+
+}
+
+.menuprincipal ul {
+  list-style: none;
+  display: flex;
+}
+
+.menuprincipal li {
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+.menuprincipal li:hover .segundomenu>li {
+  top: 0;
+  display: block;
+}
+
+.segundomenu li {
+  display: none;
+  position: relative;
+}
+
+.segundomenu {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.segundomenu li:hover {
+  display: block;
+}
+/*header*/
+header{
+  background-color:black;
+  padding: 30px;
+  text-align: center;
+  font-size: 20px;
+  color:white;
+}
+/* partir en dos columnas*/
+section {
+  float: left;
+  max-width: 50%;
+  background: rgb(77, 77, 77);
+}
+aside {
+  float: left;
+  max-width: 30%;
+  background:grey;
+  padding: 30px;
+  align-self: auto;
+}
+.lateralderecho{
+  float: left;
+  max-width: 20%;
+  background: grey;
+  padding: 20px;
+  align-self:auto;
+}
+
+.despuesde:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*estilo para el footer*/
+footer{
+  background-color:black;
+  padding: 30px;
+  text-align: center;
+  font-size: 20px;
+  color:white;
+}
+/* Menu lateral*/
+.menulateral{
+  color: white;
+  background-color: grey;
+  font: 20px Verdana;
+  width: 100%;
+}
+table{
+  font-size: 30px;
+}
